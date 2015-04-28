@@ -1,0 +1,41 @@
+<?php
+class iLanguage{
+	const SUCCESS_MESSAGE = 'Succeeded!';
+	const SUCCESS_EMOJI   = ':)';
+	const SUCCESS_CLASS   = 'success';
+	const FAILURE_MESSAGE = 'Failed!';
+	const FAILURE_EMOJI   = ':(';
+	const FAILURE_CLASS   = 'error';
+	const RETURN_FORUM    = 'Return Home';
+	const REFRESH_PAGE    = 'Click to Refresh';
+	const FORM_NAME       = 'Name: ';
+	const FORM_SUBMIT     = 'Submit';
+	const FORM_MAIL       = 'Email: ';
+	const FORM_TITLE      = 'Title: ';
+	const FORM_EMOJI      = 'Emoji: ';
+	const FORM_CONTENT    = 'Text: ';
+	const FORM_IMAGE      = 'Image URL: ';
+	const FORM_PWD        = 'Password: ';
+	const HELP_PWD        = 'Key of 8 digits/chars to delete this post. ';
+	const HELP_COOLDOWN   = 'Time to cool-down in seconds: ';
+	const HELP_NOSCRIPT   = 'You have disabled Javascript, though it does not matter much.';
+	const THREAD_REPLY    = 'Reply';
+	const TEXT_HIDE       = 'Content is hidden. Click to show them';
+	const TEXT_SAGE       = 'SAGE';
+	const FORM_DELETE     = '[DELETE POST]';
+	const FORM_DEL_ID     = 'POST ID TO DELETE';
+	const FORM_DELIMG     = 'DELETE IMAGE ONLY';
+	const FORM_EXECUTE    = 'EXECUTE!';
+	const PREFIX_LIKE     = ':) ';
+	const SUFFIX_LIKE     = ' like(s). ';
+	const PREFIX_LIKER    = '';
+	const SUFFIX_LIKER    = ' liked your post. ';
+	const PREFIX_DISLIKE  = ':(';
+	const SUFFIX_DISLIKE  = ' dislike(s). ';
+	const PREFIX_DISLIKER = '';
+	const SUFFIX_DISLIKER = ' disliked your post. ';
+	const PREFIX_OMISSION = 'There are ';
+	const SUFFIX_OMISSION = ' replie(s) omitted. ';
+	const PAGE_FIRST      = 'First';
+	const PAGE_LAST       = 'Last';
+}

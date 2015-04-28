@@ -1,0 +1,41 @@
+<?php
+class iLanguage{
+	const SUCCESS_MESSAGE = '失败！';
+	const SUCCESS_EMOJI   = ':)';
+	const SUCCESS_CLASS   = 'success';
+	const FAILURE_MESSAGE = '失败!';
+	const FAILURE_EMOJI   = ':(';
+	const FAILURE_CLASS   = 'error';
+	const RETURN_FORUM    = '返回';
+	const REFRESH_PAGE    = '刷新';
+	const FORM_NAME       = '名称';
+	const FORM_SUBMIT     = '送出';
+	const FORM_MAIL       = '邮箱';
+	const FORM_TITLE      = '标题';
+	const FORM_EMOJI      = '表情';
+	const FORM_CONTENT    = '正文';
+	const FORM_IMAGE      = '图片外链';
+	const FORM_PWD        = '密码';
+	const HELP_PWD        = '(删除文章用。英数字8字元以内)';
+	const HELP_COOLDOWN   = '当前版面的冷却时间是(sec)：';
+	const HELP_NOSCRIPT   = '＊您选择关闭了JavaScript，但这对您的浏览及发文应无巨大影响';
+	const THREAD_REPLY    = 'Reply';
+	const TEXT_HIDE       = '正文已隐藏。';
+	const TEXT_SAGE       = 'SAGE';
+	const FORM_DELETE     = '【刪除文章】';
+	const FORM_DEL_ID     = '删除的ID为';
+	const FORM_DELIMG     = '仅删除附加图片';
+	const FORM_EXECUTE    = '执行!';
+	const PREFIX_LIKE     = '(^ω^) ';
+	const SUFFIX_LIKE     = '人';
+	const PREFIX_LIKER    = '';
+	const SUFFIX_LIKER    = '点了喜欢';
+	const PREFIX_DISLIKE  = '(^︹^)';
+	const SUFFIX_DISLIKE  = '人';
+	const PREFIX_DISLIKER = '';
+	const SUFFIX_DISLIKER = '点了不喜欢';
+	const PREFIX_OMISSION = '共有';
+	const SUFFIX_OMISSION = '个回复被隐藏。';
+	const PAGE_FIRST      = '首页';
+	const PAGE_LAST       = '末页';
+}
